@@ -1,10 +1,10 @@
 import React from "react";
-import User from './Components/User'
+import StateVars from "./Components/stateVars";
 
 function App(){
   return (
     <div className="App">
-      <User />
+      <StateVars />
     </div>
   )
 }
