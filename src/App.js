@@ -1,10 +1,10 @@
 import React from "react";
-import User from './Components/User'
+import CondotionalRendering from "./Components/conditionalRendering";
 
 function App(){
   return (
     <div className="App">
-      <User />
+      <CondotionalRendering />
     </div>
   )
 }
