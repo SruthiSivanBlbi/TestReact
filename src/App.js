@@ -1,10 +1,13 @@
 import React from "react";
-import CondotionalRendering from "./Components/conditionalRendering";
+import Splice from "./Components/splice";
+import Login from "./Components/login"
 
 function App(){
   return (
     <div className="App">
-      <CondotionalRendering />
+      <Splice />
+      <hr/>
+      <Login />
     </div>
   )
 }
