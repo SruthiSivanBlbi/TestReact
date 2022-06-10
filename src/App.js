@@ -1,13 +1,10 @@
 import React from "react";
-import Splice from "./Components/splice";
-import Login from "./Components/login"
+import Layout from "./Components/gridLayout"
 
 function App(){
   return (
     <div className="App">
-      <Splice />
-      <hr/>
-      <Login />
+      <Layout />
     </div>
   )
 }
