@@ -1,10 +1,10 @@
 import React from "react";
-import Layout from "./Components/gridLayout"
+import Functional from "./Components/functionalComp";
 
 function App(){
   return (
     <div className="App">
-      <Layout />
+      < Functional />
     </div>
   )
 }
